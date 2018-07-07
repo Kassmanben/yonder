@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "93B0695632D94A80D02548842C9C4005"
-               BlueprintName = "Pods-Yonder_G"
+               BlueprintIdentifier = "DC7476A537B2071BCC80FF28F8CB2D68"
+               BlueprintName = "gRPC-ProtoRPC"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPods-Yonder_G.a">
+               BuildableName = "libgRPC-ProtoRPC.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

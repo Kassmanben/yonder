@@ -170,20 +170,19 @@ extension MapViewController: CLLocationManagerDelegate {
     }
     
     private func addPointToDatabase(title: String, location: CLLocation, description: String) {
-        var ref: DocumentReference? = nil
-        ref = db.collection("points").addDocument(data: [
+        db.collection("points").addDocument(data: [
             "title": title,
             "location": [
                 "latitude": location.coordinate.latitude,
                 "longitude": location.coordinate.longitude
             ],
-            "desciription": description
+            "description": description
             
         ]) { err in
             if let err = err {
                 print("Error adding document: \(err)")
             } else {
-                print("Document added with ID: \(ref!.documentID)")
+                print("Document added with ID:")
             }
         }
     }
