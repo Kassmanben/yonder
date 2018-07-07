@@ -3,4 +3,5 @@ target 'Yonder_G' do
 pod 'GoogleMaps'
 pod 'GooglePlaces'
 pod 'Firebase/Core'
+pod 'Firebase/Firestore'
 end

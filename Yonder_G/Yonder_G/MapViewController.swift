@@ -16,9 +16,11 @@
 import UIKit
 import GoogleMaps
 import GooglePlaces
+import Firebase
 
 class MapViewController: UIViewController {
     
+    var db: Firestore!
     var locationManager = CLLocationManager()
     var currentLocation: CLLocation?
     var mapView: GMSMapView!
@@ -33,6 +35,8 @@ class MapViewController: UIViewController {
     
     // A default location to use when location permission is not granted.
     let defaultLocation = CLLocation(latitude: -33.869405, longitude: 151.199)
+    
+   
     
     // Update the map once the user has made their selection.
     @IBAction func unwindToMain(segue: UIStoryboardSegue) {
@@ -52,6 +56,14 @@ class MapViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Initialize Firestore
+        
+        let settings = FirestoreSettings()
+        
+        Firestore.firestore().settings = settings
+        // [END setup]
+        db = Firestore.firestore()
         
         // Initialize the location manager.
         locationManager = CLLocationManager()
@@ -77,6 +89,8 @@ class MapViewController: UIViewController {
         mapView.isHidden = true
         
         listLikelyPlaces()
+        addPointToDatabase(title: "My House", location: locationManager.location!, description: "Slimy")
+        
     }
     
     // Populate the array with the list of likely places.
@@ -153,5 +167,24 @@ extension MapViewController: CLLocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         locationManager.stopUpdatingLocation()
         print("Error: \(error)")
+    }
+    
+    private func addPointToDatabase(title: String, location: CLLocation, description: String) {
+        var ref: DocumentReference? = nil
+        ref = db.collection("points").addDocument(data: [
+            "title": title,
+            "location": [
+                "latitude": location.coordinate.latitude,
+                "longitude": location.coordinate.longitude
+            ],
+            "desciription": description
+            
+        ]) { err in
+            if let err = err {
+                print("Error adding document: \(err)")
+            } else {
+                print("Document added with ID: \(ref!.documentID)")
+            }
+        }
     }
 }

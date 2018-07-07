@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "382E2C07D8E452314F90C77F40311E19"
+               BlueprintIdentifier = "A4B0E87C8EA99A11EDEEC352909C94D4"
                BuildableName = "libnanopb.a"
                BlueprintName = "nanopb"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "382E2C07D8E452314F90C77F40311E19"
+            BlueprintIdentifier = "A4B0E87C8EA99A11EDEEC352909C94D4"
             BuildableName = "libnanopb.a"
             BlueprintName = "nanopb"
             ReferencedContainer = "container:Pods.xcodeproj">
