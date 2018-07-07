@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9AB48EF3B86F0606C035698F /* libPods-Yonder_G.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2FE3D294CF6F18CD6E2E45D /* libPods-Yonder_G.a */; };
+		B54C7E4720F166B800EBD1F0 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54C7E4620F166B800EBD1F0 /* PlacesViewController.swift */; };
 		B597F79220F15A480034C23B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B597F79120F15A480034C23B /* AppDelegate.swift */; };
-		B597F79420F15A480034C23B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B597F79320F15A480034C23B /* ViewController.swift */; };
+		B597F79420F15A480034C23B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B597F79320F15A480034C23B /* MapViewController.swift */; };
 		B597F79720F15A480034C23B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B597F79520F15A480034C23B /* Main.storyboard */; };
 		B597F79920F15A4A0034C23B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B597F79820F15A4A0034C23B /* Assets.xcassets */; };
 		B597F79C20F15A4A0034C23B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B597F79A20F15A4A0034C23B /* LaunchScreen.storyboard */; };
@@ -37,9 +38,10 @@
 
 /* Begin PBXFileReference section */
 		A1D2094C480630FB83EE5150 /* Pods-Yonder_G.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yonder_G.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yonder_G/Pods-Yonder_G.release.xcconfig"; sourceTree = "<group>"; };
+		B54C7E4620F166B800EBD1F0 /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
 		B597F78E20F15A480034C23B /* Yonder_G.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yonder_G.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B597F79120F15A480034C23B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B597F79320F15A480034C23B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B597F79320F15A480034C23B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		B597F79620F15A480034C23B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B597F79820F15A4A0034C23B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B597F79B20F15A4A0034C23B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -125,7 +127,8 @@
 			isa = PBXGroup;
 			children = (
 				B597F79120F15A480034C23B /* AppDelegate.swift */,
-				B597F79320F15A480034C23B /* ViewController.swift */,
+				B597F79320F15A480034C23B /* MapViewController.swift */,
+				B54C7E4620F166B800EBD1F0 /* PlacesViewController.swift */,
 				B597F79520F15A480034C23B /* Main.storyboard */,
 				B597F79820F15A4A0034C23B /* Assets.xcassets */,
 				B597F79A20F15A4A0034C23B /* LaunchScreen.storyboard */,
@@ -327,7 +330,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B597F79420F15A480034C23B /* ViewController.swift in Sources */,
+				B54C7E4720F166B800EBD1F0 /* PlacesViewController.swift in Sources */,
+				B597F79420F15A480034C23B /* MapViewController.swift in Sources */,
 				B597F79220F15A480034C23B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
