@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AB48EF3B86F0606C035698F /* libPods-Yonder_G.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2FE3D294CF6F18CD6E2E45D /* libPods-Yonder_G.a */; };
+		B597F79220F15A480034C23B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B597F79120F15A480034C23B /* AppDelegate.swift */; };
+		B597F79420F15A480034C23B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B597F79320F15A480034C23B /* ViewController.swift */; };
+		B597F79720F15A480034C23B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B597F79520F15A480034C23B /* Main.storyboard */; };
+		B597F79920F15A4A0034C23B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B597F79820F15A4A0034C23B /* Assets.xcassets */; };
+		B597F79C20F15A4A0034C23B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B597F79A20F15A4A0034C23B /* LaunchScreen.storyboard */; };
+		B597F7A720F15A4A0034C23B /* Yonder_GTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B597F7A620F15A4A0034C23B /* Yonder_GTests.swift */; };
+		B597F7B220F15A4A0034C23B /* Yonder_GUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B597F7B120F15A4A0034C23B /* Yonder_GUITests.swift */; };
+		B597F7C020F15A960034C23B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B597F7BF20F15A960034C23B /* Podfile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B597F7A320F15A4A0034C23B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B597F78620F15A480034C23B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B597F78D20F15A480034C23B;
+			remoteInfo = Yonder_G;
+		};
+		B597F7AE20F15A4A0034C23B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B597F78620F15A480034C23B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B597F78D20F15A480034C23B;
+			remoteInfo = Yonder_G;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1D2094C480630FB83EE5150 /* Pods-Yonder_G.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yonder_G.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yonder_G/Pods-Yonder_G.release.xcconfig"; sourceTree = "<group>"; };
+		B597F78E20F15A480034C23B /* Yonder_G.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yonder_G.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B597F79120F15A480034C23B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B597F79320F15A480034C23B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B597F79620F15A480034C23B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B597F79820F15A4A0034C23B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B597F79B20F15A4A0034C23B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B597F79D20F15A4A0034C23B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B597F7A220F15A4A0034C23B /* Yonder_GTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Yonder_GTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B597F7A620F15A4A0034C23B /* Yonder_GTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yonder_GTests.swift; sourceTree = "<group>"; };
+		B597F7A820F15A4A0034C23B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B597F7AD20F15A4A0034C23B /* Yonder_GUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Yonder_GUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B597F7B120F15A4A0034C23B /* Yonder_GUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yonder_GUITests.swift; sourceTree = "<group>"; };
+		B597F7B320F15A4A0034C23B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B597F7BF20F15A960034C23B /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		C210B06924EB8021B1501062 /* Pods-Yonder_G.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yonder_G.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yonder_G/Pods-Yonder_G.debug.xcconfig"; sourceTree = "<group>"; };
+		D2FE3D294CF6F18CD6E2E45D /* libPods-Yonder_G.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Yonder_G.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B597F78B20F15A480034C23B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB48EF3B86F0606C035698F /* libPods-Yonder_G.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B597F79F20F15A4A0034C23B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B597F7AA20F15A4A0034C23B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		780202B30CFA1064F1835C88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C210B06924EB8021B1501062 /* Pods-Yonder_G.debug.xcconfig */,
+				A1D2094C480630FB83EE5150 /* Pods-Yonder_G.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		824E27171446E9BC17A60BE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2FE3D294CF6F18CD6E2E45D /* libPods-Yonder_G.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B597F78520F15A480034C23B = {
+			isa = PBXGroup;
+			children = (
+				B597F7BF20F15A960034C23B /* Podfile */,
+				B597F79020F15A480034C23B /* Yonder_G */,
+				B597F7A520F15A4A0034C23B /* Yonder_GTests */,
+				B597F7B020F15A4A0034C23B /* Yonder_GUITests */,
+				B597F78F20F15A480034C23B /* Products */,
+				780202B30CFA1064F1835C88 /* Pods */,
+				824E27171446E9BC17A60BE4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B597F78F20F15A480034C23B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B597F78E20F15A480034C23B /* Yonder_G.app */,
+				B597F7A220F15A4A0034C23B /* Yonder_GTests.xctest */,
+				B597F7AD20F15A4A0034C23B /* Yonder_GUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B597F79020F15A480034C23B /* Yonder_G */ = {
+			isa = PBXGroup;
+			children = (
+				B597F79120F15A480034C23B /* AppDelegate.swift */,
+				B597F79320F15A480034C23B /* ViewController.swift */,
+				B597F79520F15A480034C23B /* Main.storyboard */,
+				B597F79820F15A4A0034C23B /* Assets.xcassets */,
+				B597F79A20F15A4A0034C23B /* LaunchScreen.storyboard */,
+				B597F79D20F15A4A0034C23B /* Info.plist */,
+			);
+			path = Yonder_G;
+			sourceTree = "<group>";
+		};
+		B597F7A520F15A4A0034C23B /* Yonder_GTests */ = {
+			isa = PBXGroup;
+			children = (
+				B597F7A620F15A4A0034C23B /* Yonder_GTests.swift */,
+				B597F7A820F15A4A0034C23B /* Info.plist */,
+			);
+			path = Yonder_GTests;
+			sourceTree = "<group>";
+		};
+		B597F7B020F15A4A0034C23B /* Yonder_GUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B597F7B120F15A4A0034C23B /* Yonder_GUITests.swift */,
+				B597F7B320F15A4A0034C23B /* Info.plist */,
+			);
+			path = Yonder_GUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B597F78D20F15A480034C23B /* Yonder_G */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B597F7B620F15A4A0034C23B /* Build configuration list for PBXNativeTarget "Yonder_G" */;
+			buildPhases = (
+				0C1AB5CF736EA64E859E5B27 /* [CP] Check Pods Manifest.lock */,
+				B597F78A20F15A480034C23B /* Sources */,
+				B597F78B20F15A480034C23B /* Frameworks */,
+				B597F78C20F15A480034C23B /* Resources */,
+				BF9685070869BA906055CC88 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yonder_G;
+			productName = Yonder_G;
+			productReference = B597F78E20F15A480034C23B /* Yonder_G.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B597F7A120F15A4A0034C23B /* Yonder_GTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B597F7B920F15A4A0034C23B /* Build configuration list for PBXNativeTarget "Yonder_GTests" */;
+			buildPhases = (
+				B597F79E20F15A4A0034C23B /* Sources */,
+				B597F79F20F15A4A0034C23B /* Frameworks */,
+				B597F7A020F15A4A0034C23B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B597F7A420F15A4A0034C23B /* PBXTargetDependency */,
+			);
+			name = Yonder_GTests;
+			productName = Yonder_GTests;
+			productReference = B597F7A220F15A4A0034C23B /* Yonder_GTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B597F7AC20F15A4A0034C23B /* Yonder_GUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B597F7BC20F15A4A0034C23B /* Build configuration list for PBXNativeTarget "Yonder_GUITests" */;
+			buildPhases = (
+				B597F7A920F15A4A0034C23B /* Sources */,
+				B597F7AA20F15A4A0034C23B /* Frameworks */,
+				B597F7AB20F15A4A0034C23B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B597F7AF20F15A4A0034C23B /* PBXTargetDependency */,
+			);
+			name = Yonder_GUITests;
+			productName = Yonder_GUITests;
+			productReference = B597F7AD20F15A4A0034C23B /* Yonder_GUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B597F78620F15A480034C23B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Ben Kassman";
+				TargetAttributes = {
+					B597F78D20F15A480034C23B = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					B597F7A120F15A4A0034C23B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = B597F78D20F15A480034C23B;
+					};
+					B597F7AC20F15A4A0034C23B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = B597F78D20F15A480034C23B;
+					};
+				};
+			};
+			buildConfigurationList = B597F78920F15A480034C23B /* Build configuration list for PBXProject "Yonder_G" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B597F78520F15A480034C23B;
+			productRefGroup = B597F78F20F15A480034C23B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B597F78D20F15A480034C23B /* Yonder_G */,
+				B597F7A120F15A4A0034C23B /* Yonder_GTests */,
+				B597F7AC20F15A4A0034C23B /* Yonder_GUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B597F78C20F15A480034C23B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B597F79C20F15A4A0034C23B /* LaunchScreen.storyboard in Resources */,
+				B597F79920F15A4A0034C23B /* Assets.xcassets in Resources */,
+				B597F7C020F15A960034C23B /* Podfile in Resources */,
+				B597F79720F15A480034C23B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B597F7A020F15A4A0034C23B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B597F7AB20F15A4A0034C23B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C1AB5CF736EA64E859E5B27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yonder_G-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF9685070869BA906055CC88 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Yonder_G/Pods-Yonder_G-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yonder_G/Pods-Yonder_G-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B597F78A20F15A480034C23B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B597F79420F15A480034C23B /* ViewController.swift in Sources */,
+				B597F79220F15A480034C23B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B597F79E20F15A4A0034C23B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B597F7A720F15A4A0034C23B /* Yonder_GTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B597F7A920F15A4A0034C23B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B597F7B220F15A4A0034C23B /* Yonder_GUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B597F7A420F15A4A0034C23B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B597F78D20F15A480034C23B /* Yonder_G */;
+			targetProxy = B597F7A320F15A4A0034C23B /* PBXContainerItemProxy */;
+		};
+		B597F7AF20F15A4A0034C23B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B597F78D20F15A480034C23B /* Yonder_G */;
+			targetProxy = B597F7AE20F15A4A0034C23B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B597F79520F15A480034C23B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B597F79620F15A480034C23B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B597F79A20F15A4A0034C23B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B597F79B20F15A4A0034C23B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B597F7B420F15A4A0034C23B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B597F7B520F15A4A0034C23B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B597F7B720F15A4A0034C23B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C210B06924EB8021B1501062 /* Pods-Yonder_G.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Yonder_G/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "run.Yonder-G";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B597F7B820F15A4A0034C23B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1D2094C480630FB83EE5150 /* Pods-Yonder_G.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Yonder_G/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "run.Yonder-G";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B597F7BA20F15A4A0034C23B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Yonder_GTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "run.Yonder-GTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yonder_G.app/Yonder_G";
+			};
+			name = Debug;
+		};
+		B597F7BB20F15A4A0034C23B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Yonder_GTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "run.Yonder-GTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yonder_G.app/Yonder_G";
+			};
+			name = Release;
+		};
+		B597F7BD20F15A4A0034C23B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Yonder_GUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "run.Yonder-GUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Yonder_G;
+			};
+			name = Debug;
+		};
+		B597F7BE20F15A4A0034C23B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Yonder_GUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "run.Yonder-GUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Yonder_G;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B597F78920F15A480034C23B /* Build configuration list for PBXProject "Yonder_G" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B597F7B420F15A4A0034C23B /* Debug */,
+				B597F7B520F15A4A0034C23B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B597F7B620F15A4A0034C23B /* Build configuration list for PBXNativeTarget "Yonder_G" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B597F7B720F15A4A0034C23B /* Debug */,
+				B597F7B820F15A4A0034C23B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B597F7B920F15A4A0034C23B /* Build configuration list for PBXNativeTarget "Yonder_GTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B597F7BA20F15A4A0034C23B /* Debug */,
+				B597F7BB20F15A4A0034C23B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B597F7BC20F15A4A0034C23B /* Build configuration list for PBXNativeTarget "Yonder_GUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B597F7BD20F15A4A0034C23B /* Debug */,
+				B597F7BE20F15A4A0034C23B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B597F78620F15A480034C23B /* Project object */;
+}
