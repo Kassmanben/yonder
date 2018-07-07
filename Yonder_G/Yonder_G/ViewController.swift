@@ -13,7 +13,7 @@ import GooglePlaces
 
 class ViewController: UIViewController, CLLocationManagerDelegate {
     var locationManager = CLLocationManager()
-    var currentLocation = CLLocation?
+    var currentLocation: CLLocation?
     var mapView: GMSMapView!
     var placesClient: GMSPlacesClient!
     var zoomLevel: Float = 15.0

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69E86F3F20F1696B00440EC6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 69E86F3E20F1696B00440EC6 /* GoogleService-Info.plist */; };
 		9AB48EF3B86F0606C035698F /* libPods-Yonder_G.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2FE3D294CF6F18CD6E2E45D /* libPods-Yonder_G.a */; };
 		B597F79220F15A480034C23B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B597F79120F15A480034C23B /* AppDelegate.swift */; };
 		B597F79420F15A480034C23B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B597F79320F15A480034C23B /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		69E86F3E20F1696B00440EC6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A1D2094C480630FB83EE5150 /* Pods-Yonder_G.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yonder_G.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yonder_G/Pods-Yonder_G.release.xcconfig"; sourceTree = "<group>"; };
 		B597F78E20F15A480034C23B /* Yonder_G.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yonder_G.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B597F79120F15A480034C23B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +52,7 @@
 		B597F7AD20F15A4A0034C23B /* Yonder_GUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Yonder_GUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B597F7B120F15A4A0034C23B /* Yonder_GUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yonder_GUITests.swift; sourceTree = "<group>"; };
 		B597F7B320F15A4A0034C23B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B597F7BF20F15A960034C23B /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		B597F7BF20F15A960034C23B /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C210B06924EB8021B1501062 /* Pods-Yonder_G.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yonder_G.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yonder_G/Pods-Yonder_G.debug.xcconfig"; sourceTree = "<group>"; };
 		D2FE3D294CF6F18CD6E2E45D /* libPods-Yonder_G.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Yonder_G.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -124,6 +126,7 @@
 		B597F79020F15A480034C23B /* Yonder_G */ = {
 			isa = PBXGroup;
 			children = (
+				69E86F3E20F1696B00440EC6 /* GoogleService-Info.plist */,
 				B597F79120F15A480034C23B /* AppDelegate.swift */,
 				B597F79320F15A480034C23B /* ViewController.swift */,
 				B597F79520F15A480034C23B /* Main.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				B597F79C20F15A4A0034C23B /* LaunchScreen.storyboard in Resources */,
 				B597F79920F15A4A0034C23B /* Assets.xcassets in Resources */,
+				69E86F3F20F1696B00440EC6 /* GoogleService-Info.plist in Resources */,
 				B597F7C020F15A960034C23B /* Podfile in Resources */,
 				B597F79720F15A480034C23B /* Main.storyboard in Resources */,
 			);

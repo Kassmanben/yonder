@@ -2,4 +2,5 @@ source 'https://github.com/CocoaPods/Specs.git'
 target 'Yonder_G' do
 pod 'GoogleMaps'
 pod 'GooglePlaces'
+pod 'Firebase/Core'
 end
